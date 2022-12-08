@@ -1,0 +1,48 @@
+.Coca-colaBg {
+    display: flex;
+
+    img {
+        width: 100%;
+    }
+}
+
+.cards {
+    width: 100%;
+    
+
+    .muskitior {
+        .sol1 {
+            display: flex;
+            width: 100%;
+            
+            
+            div{overflow: hidden;
+                img {
+                height: 100%;
+                transition: 1.6s;
+            }
+
+            img:hover {
+                transform: scale(1.1);
+
+            }}
+            
+
+            .altalta {
+                display: flex;
+                flex-direction: column;
+                overflow: hidden;
+                img {
+                    height: 50%;
+                    transition: 1.6s;
+                }
+
+                img:hover {
+                    transform: scale(1.1);
+                    
+                }
+            }
+        }
+    }
+
+}
